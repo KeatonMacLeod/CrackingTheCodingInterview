@@ -1,29 +1,30 @@
 //KeatonMacLeod
 package StacksAndQueues;
+import java.util.Random;
+
 import DataStructures.SetOfStacks;
+import DataStructures.TwoStackQueue;
 
 public class SAQ33 {
 
 	public static void main (String[] args)
 	{
+		
+		Random random = new Random();
 		SetOfStacks setOfStacks = new SetOfStacks();
-		setOfStacks.push(1);
-		setOfStacks.push(2);
-		setOfStacks.push(3);
-		setOfStacks.push(4);
-		setOfStacks.push(5);
-		setOfStacks.push(6);
-		setOfStacks.push(7);
-		System.out.println(setOfStacks.pop());
-		System.out.println(setOfStacks.pop());
-		System.out.println(setOfStacks.pop());
-		System.out.println(setOfStacks.pop());
-		setOfStacks.push(33);
-		setOfStacks.push(42);
-		setOfStacks.push(51);
-		setOfStacks.push(69);
-		System.out.println(setOfStacks.pop());
-		System.out.println(setOfStacks.pop());
-		System.out.println(setOfStacks.pop());
+		int max = 10;
+		int min = 1;
+		
+		for (int i = 0; i < 10; i++)
+		{
+			int value = random.nextInt(max - min + 1) + min;
+			System.out.println("Entering: " + value);
+			setOfStacks.push(value);
+		}//for
+		
+		while (setOfStacks.numItems != 0)
+		{
+			System.out.println(setOfStacks.pop());
+		}
 	}
 }

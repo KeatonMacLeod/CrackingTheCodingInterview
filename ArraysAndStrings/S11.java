@@ -9,8 +9,9 @@ public class S11 {
 		String word =  "";
 		int max = 90;
 		int min = 65;
+		int length = 13;
 		
-		for (int i = 0; i < 10; i++)
+		for (int i = 0; i < length; i++)
 		{
 			char letter = (char)(random.nextInt(max - min + 1) + min);
 			word += letter;

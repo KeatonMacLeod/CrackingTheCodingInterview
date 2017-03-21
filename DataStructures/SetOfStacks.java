@@ -4,8 +4,8 @@ package DataStructures;
 public class SetOfStacks {
 	StackNode top;
 	StackNode curr;
-	int numItems;
-	int maxSize;
+	public int numItems;
+	public int maxSize;
 	
 	public SetOfStacks()
 	{
@@ -45,6 +45,12 @@ public class SetOfStacks {
 		{
 			curr = curr.prev;
 		}
+		numItems--;
 		return curr.stack.pop();
+	}
+	
+	public int getNumItems()
+	{
+		return numItems;
 	}
 }

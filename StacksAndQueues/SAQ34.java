@@ -1,7 +1,7 @@
 //KeatonMacLeod
 package StacksAndQueues;
 import java.util.Random;
-import DataStructures.Queue;
+import DataStructures.TwoStackQueue;
 
 public class SAQ34 {
 
@@ -9,7 +9,7 @@ public class SAQ34 {
 	{
 		
 		Random random = new Random();
-		Queue queue = new Queue();
+		TwoStackQueue queue = new TwoStackQueue();
 		int max = 10;
 		int min = 1;
 		

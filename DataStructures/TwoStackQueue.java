@@ -1,12 +1,12 @@
 //KeatonMacLeod
 package DataStructures;
 
-public class Queue {
+public class TwoStackQueue {
 	Stack one;
 	Stack two;
 	int numItems;
 	
-	public Queue()
+	public TwoStackQueue()
 	{
 		one = new Stack();
 		two = new Stack();
