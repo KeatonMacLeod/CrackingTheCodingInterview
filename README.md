@@ -17,6 +17,4 @@ Make sure to take a look at the data structures used in each <strong>main</stron
 
 ![crackingthecodinginterviewpicture](https://cloud.githubusercontent.com/assets/15184861/23982136/6fb64ff0-09d9-11e7-998b-e12372ec6a35.png)
 
-I believe it's important to keep your mind sharp by solving coding problems daily, which this book has helped me do!
-
 Take a look at my solutions!
